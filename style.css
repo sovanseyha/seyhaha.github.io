@@ -1,0 +1,389 @@
+body{
+    font-family: 'Roboto','Hanuman';
+    margin: 0;
+}
+img{
+    object-fit: cover;
+}
+.box{
+    width: 100%;
+    height: 4150px;
+}
+.left{
+    width: 253.2px;
+    height: 100vh;
+    float: left;
+    background-color: #f4f4f5;
+    position: sticky;
+    top: 0;
+
+}
+.title{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #f4f4f5;
+}
+.title img{
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 32px;
+}
+.title-name{
+    color: #111;
+    width: 110px;
+    height: 60px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 14px;
+}
+.title-name p, .title-name h3{
+    margin: 0;
+}
+.title-name p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.title-name h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.search{
+    width: 100%;
+    height: 40px;
+    float: left;
+    justify-content: center;
+    display: flex;
+    background-color: #f4f4f5;
+
+}
+.search input[type=search]{
+    width: 216.4px;
+    height: 100%;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: none;
+}
+.search input[type=search]::placeholder{
+    font-size: 17px;
+}
+.menu{
+    float: left;
+    width: 221.2px;
+    height: 535px;
+}
+.menu ul{
+    padding: 0;
+}
+.menu li{
+    width: 100%;
+    height: 40px;
+    margin-left: 15px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+.menu li:hover{
+    background-color: rgba(128, 128, 128, 0.656);
+}
+.menu li:nth-child(1){
+    background-color: #ed1c24;
+}
+.menu li:nth-child(1) a{
+    color: #fff;
+}
+.right{
+    width: 1202px;
+    height: 100vh;
+    float: left;
+    margin-left: 31.2px;
+}
+.right-title{
+    width: 100%;
+    height: 96px;
+    margin-top: 30.4px;
+}
+.right-title p, h1{
+    margin: 0;
+}
+.right-title p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.right-title h1{
+    font-size: 30px;
+    margin-top: 13px;
+}
+.main-topic{
+    width: 100%;
+    height: 512px;
+    background-color: salmon;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.main-topic img{
+    object-fit: cover;
+    position: absolute;
+}
+.black1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.586);
+    position: absolute;
+}
+.main-topic-title{
+    width: 930px;
+    height: 300px;
+    position: absolute;
+    margin-top: 125.6px;
+    margin-left: 60px;
+    color: #fff
+}
+.main-topic-title p{
+    font-size: 22px;
+    font-weight: 280;
+    margin: 0;
+}
+.main-topic-title h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 4px;
+}
+.main-topic-title button{
+    width: 162.1px;
+    height: 44px;
+    background-color: #ed1c24;
+    border-radius: 8px;
+    border: none;
+}
+.main-topic-title button span{
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff
+}
+.sponser{
+    width: 100%;
+    height: 454.4px;
+}
+.sponser .sting {
+    width: 390px;
+    height: 390px;
+    border-radius: 8px;
+    overflow: hidden;
+    float: left;
+}
+.sponser .hanuman{
+    width: 390px;
+    height: 390px;
+    float: left;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 3px;
+}
+.news{
+    width: 100%;
+    height: 362 px;
+    float: left;
+}
+.news span{
+    float: right;
+}
+.news span a{
+    text-decoration: none;
+    color: #ed1c24;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.block{
+    width: 288.5px;
+    height: 296px;
+    float: left;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.1s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+.block:hover{
+    transform: scale(1.05);
+}
+.block:not(.block:nth-child(2)){
+    margin-left: 16px;
+}
+.block img{
+    width: 100%;
+    height: 176px;
+}
+.block .block-title{
+    width: 256.5px;
+    height: 104px;
+    margin-left: 16px;
+}
+.block .block-title p, span{
+    margin: 0;
+}
+.block .block-title span[id=date]{
+    float: left;
+    font-style: 15px;
+    font-weight: 300;
+    color: #ed1c24;
+}
+.block .block-title p{
+    font-weight: bold;
+}
+.block-title h4{
+    font-weight: 300;
+    font-size: 15px;
+}
+.block-title h4 span{
+    float: right;
+}
+
+.bottom{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    float: left;
+}
+.block-pic{
+    width: 100%;
+    height: 50%;
+}
+.bottom img{
+    position: absolute;
+}
+.black2{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.466);
+}
+.frame{
+    width: 633px;
+    height: 350px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 10px; 
+    float: left;
+}
+.frame .icon{
+    width: 176px;
+    height: 176px;
+    margin-left: 225px;
+}
+.frame .text{
+    width: 100%;
+    text-align: center;
+}
+.frame .text h1{
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+}
+.frame .text p{
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+}
+.frame .text a{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 28px;
+    transition: 0.5s;
+}
+.frame .text a:hover{
+    color: #ed1c24;
+    transform: scale(1.1);
+}
+.bottom .block-text{
+    width: 100%;
+    height: 50%;
+    background-color: #ed1c24;
+}
+.block-text .about{
+    width: 100%;
+    height: 210px;
+}
+.block-text .about .blocks{
+    width: 480px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.blocks .block1{
+    width: 198px;
+    height: 176px;
+    margin-left: 154.3px;
+    margin-top: 18.2px;
+}
+.blocks .block2{
+    width: 260px;
+    height: 176px;
+    margin-left: 154.3px;
+    margin-top: 18.2px;
+}
+.blocks .block2 .divide{
+    width: 50%;
+    float: left;
+}
+.blocks .block3{
+    width: 350px;
+    height: 176px;
+    margin-left: 154.3px;
+    margin-top: 18.2px;
+}
+.blocks h1{
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 0;
+    text-align: left;
+    cursor: pointer;
+}
+.blocks p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    cursor: pointer;
+}
+.blocks a{
+    text-decoration: none;
+    color: #fff;
+}
+.blocks li:hover{
+    transform:scaleX(1.1)
+}
+.blocks ul{
+    padding: 0;
+}
+.blocks li{
+    list-style-type: none;
+    text-align: left;
+    transition: 0.1s;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    float: left;
+    margin-top: 80px;
+}
+.footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    margin: 0;
+}
